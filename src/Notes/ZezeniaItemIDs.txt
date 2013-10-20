@@ -1,0 +1,8 @@
+393 - hand
+399 - smaller stack of gold
+400 - stack of gold
+401 - bag
+500 - beetle
+600 - 2 pebbles
+700 - tiny giant beetle
+1541 - table coaster

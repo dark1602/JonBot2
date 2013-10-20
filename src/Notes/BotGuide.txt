@@ -1,0 +1,108 @@
+====================
+==BEFORE YOU BEGIN==
+====================
+========
+==NOTE==    You need to install the JDK(not the JRE).
+========            http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+
+-Make sure you have copied JIntellitype.dll and JIntellitype64.dll into your system32 folder. 
+    You need these for global hotkeys to pause bot.
+-Goto task manager. Goto view menu on top. Click Select Columns. Check the PID(Process Identifier) box. 
+
+========
+==NOTE==    You need to input Zezenia's PID into the bot every time you start Zezenia's client.
+========
+    
+-You must have the newest CheatEngine installed to use this bot.
+-You must have the cheattables zezenia.ct to use with cheatengine to use this bot.
+
+
+
+
+--------------
+--Begin Here--
+--------------
+
+1]Open Zezenia and JonBot2.
+
+2]Configure your Zezenia client settings.
+    Skin:Dark Stripes
+    Use Double UI.
+    Force new windows to the right
+    Classic right click
+
+3]Login into your bot character. 
+    (If you log onto any other character, you have to repeat the following steps when you log back onto your bot character).
+
+4]Arrange your client the following way.
+    On your left side.
+        Character status.
+        Actions
+        People
+        Minimap
+    On your right side.
+        Inventory
+        All following backpacks.
+
+5]Open all your backpacks in the following order.
+        main bp
+        mana potion bp
+        health potion bp
+        arrow bp
+                Food goes into the first slot of this backpack.
+                (It doesn't matter if you are not a ranger. There must be some kind of 4th backpack opened here.)
+        Loot backpacks bp
+                (This is a backpack full of empty bps(or bags))
+        GOLD BACKPACK
+                (Open your first lootbackpack here, but do not close your previous backpack of loot backpacks)
+        NON-GOLD ITEM BACKPACK
+                (open your second lootbackpack here, but do not close previous backpacks.)
+
+6]Start cheatengine 
+    Attach to zezenia.exe and load the zezenia.ct addresses.
+    Write down all the addresses into their appropriate fields on the addresses tab of the bot.
+        All fields must be filled in.
+
+7]Setup Healing
+    Set the percentages at what you want.
+    Enable(check) all potions and spells that you want to use.
+    Hit start healing button.
+
+========
+==NOTE==    The PAUSE key pauses healing.
+========
+
+8]Save settings.
+    This saves all boxes.
+    If for any reason you close the bot at this point, without closing the client, you can reopen bot and it will autoload all previous values.
+
+------------------------    
+---CAVEBOT STEPS BELOW--
+------------------------
+
+9]Setup cavebot.
+    Goto file and load cavebot script.
+        Find your script and load it. It will auto-populate the scipt area of the cavebot tab.
+        If you want to make your own, remember that you need to(preferably) walk in straight lines from point, to point.
+    Hit start cavebot button.
+        You now have 2 seconds to alt tab client before the bot begins processing the script and trying to target monsters.
+
+========
+==NOTE==    The INSERT key pauses the cavebot and targeting.
+========
+
+NOTES:
+    If you close the Zezenia for any reason, you will redo steps 5-9. 
+        Until java lets me auto-compute the base address of running applications, this is not fixable.
+
+
+=====================================
+==COMMON ISSUES AND HOW TO FIX THEM==
+=====================================
+JAR DOESNT RUN WHEN DOUBLE CLICKED. 
+    Try to run the runme.bat file as administrator.
+CAVEBOT ISNT MOVING ME ANYWHERE.
+    You have to load the script before you press the start cavebot button.
+CAVEBOT IS MOVING ME IN THE WRONG DIRECTIONS.
+    You entered the wrong character x,y, or z, into the address tab.
+    You might have entered the wrong PID on the healing tab.

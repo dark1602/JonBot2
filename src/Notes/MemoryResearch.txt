@@ -1,0 +1,34 @@
+009EDB60	id
+009EDB54	coords
+
+009ED7C0	id
+009ED7B4	coords
+
+
+009ED6D8	id		id addresses are hex(e8) away from each other
+009ED6CC	coords		coord address is id address - hex(C)
+
+009ED8A8	id
+009ED89C	coords
+
+009EDA78	id
+009EDA6C	coords
+
+009ED990	id
+009ED984	coords
+
+
+
+009EDC48	id		<start of monsters
+009EDC3C	coords
+
+
+009EDD30	id
+009EDD24	coords
+
+
+009EE0D0	id
+009EE0C4	coords
+
+009EE1B8	id
+009EE1AC	coords

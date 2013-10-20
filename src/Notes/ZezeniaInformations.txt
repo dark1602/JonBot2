@@ -1,0 +1,1 @@
+66 pixels each is the size of each new opened backpack window

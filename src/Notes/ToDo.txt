@@ -1,0 +1,11 @@
+Cavebot
+    -looting (open backpacks)
+    -Attacking
+        1 square first, then 2 squares away, then 3 squares.
+Hunting
+    -Arrow Restocker
+Food Eating
+    -out of 1st bp?
+Player alert
+    -figure out a way?
+        boat npcs on safe list. if anything is targeted, besides them, play alert.
