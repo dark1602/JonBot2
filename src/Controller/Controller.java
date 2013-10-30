@@ -1,5 +1,6 @@
 package Controller;
 
+import MemoryAccess.Locations;
 import cave.CaveBot;
 import cave.CaveBotActions;
 
@@ -42,5 +43,9 @@ public class Controller {
      */
     public void toggleCavebotPause(){
         cavebot.togglePause();
+    }
+
+    public void test() {
+        Locations.test();
     }
 }

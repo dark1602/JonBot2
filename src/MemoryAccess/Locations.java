@@ -123,6 +123,11 @@ public class Locations {
      * testing at the current time.
      */
     public static int test() {
+        System.out.println(getBaseAddress());
+        System.out.println(getBaseAddress()+0x17E168);
+        System.out.println(Locations.readMemory(returnProcess(), getBaseAddress(), 4).getInt(0));
+        System.out.println(Locations.readMemory(returnProcess(), getBaseAddress()+0x17E168, 8).getPointer(0));
+        System.out.println(Locations.readMemory(returnProcess(), getBaseAddress()+0x17E168+0x8, 8).getPointer(0));
         return 0;
     }
 

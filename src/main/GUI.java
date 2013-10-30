@@ -329,7 +329,7 @@ public class GUI extends javax.swing.JFrame implements HotkeyListener {
 
         jLabel11.setText("PID");
 
-        PID.setText("6528");
+        PID.setText("19376");
 
         jLabel27.setText("Healing");
 
@@ -997,6 +997,7 @@ public class GUI extends javax.swing.JFrame implements HotkeyListener {
         //start the controller that controls everything
         JIntellitype.getInstance().registerHotKey(3, 0, KeyEvent.VK_SUBTRACT);
         controller = Controller.getInstance();
+        //controller.test();
         //hide this button, so this shit isnt done again.
         startButton.setVisible(false);
         startCavebot.setEnabled(true);
